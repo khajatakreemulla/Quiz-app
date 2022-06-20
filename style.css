@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(204, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    max-width: 100%;
+    width: 600px;
+    background-color: #ffffff;
+}
+.quiz-header {
+    padding: 2rem;
+}
+h1{
+    padding: 0rem, 1rem;
+}
+ul li {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.btn {
+    width: 100%;
+    display: block;
+    background-color: steelblue;
+    border-radius: 2px;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
